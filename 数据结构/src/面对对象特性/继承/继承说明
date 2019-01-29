@@ -1,0 +1,11 @@
+如果一个类继承另一个类，java编译程序会先去调用父类的构造函数，然后在调用子类的构造函数
+public class Run {
+    public static void main(String[] args) {
+        Sun sun=new Sun();
+        sun.xing();
+    }
+}
+事例中只是new了一个 Sun类，结果如下：
+我是爸爸
+我是儿子
+我姓 aaa

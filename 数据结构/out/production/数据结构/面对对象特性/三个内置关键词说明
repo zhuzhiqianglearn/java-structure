@@ -1,0 +1,11 @@
+ public class Class1{
+    private int age;
+    public String name;
+    protected String sex;
+    public void hello(){
+        System.out.println("hello word "+age+"  "+sex);
+    }
+}
+
+如果在一个类下操作 Class1，可以操作private，protected，public
+如果在一个包下操作 Class1，可以操作protected，public
