@@ -5,5 +5,6 @@ public class Main {
         Print print=new PrintBanner("hello");
         print.printWeak();
         print.printStrong();
+        print.printStrong();
     }
 }
