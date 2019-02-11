@@ -26,5 +26,7 @@ public class Imp {
         System.out.println("cglib代理----写");
     }
 
-
+    public void say(String name) {
+        System.out.println("cglib代理----"+name);
+    }
 }

@@ -1,0 +1,14 @@
+适配模式对象包含：
+
+Target:对象，也就是我们的Print 类 我们需要使用的12伏特的环境
+Adaptee：被适配者，也就是我们的Branner类，实际100伏特
+Adapter：适配器，将被适配者转化成Target对象能够使用的
+
+两种方式：
+1.继承类
+ Adapter 继承 Adaptee 实现 Target
+2.委托形式：
+（1） Adapter 实现 Target
+（2） Adaptee 成为 Adapter 的内部参数
+
+举例：插线板，提供各不同的功率插头，我们不需要关心它里面怎么排布的，只需要知道，插入对应的插口就能使用
