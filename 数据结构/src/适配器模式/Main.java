@@ -6,5 +6,6 @@ public class Main {
         print.printWeak();
         print.printStrong();
         print.printStrong();
+        print.printStrong();
     }
 }
